@@ -1,3 +1,86 @@
+Issues faced in linux
+networking commands in linux
+how to see ip
+what is ebs
+what is efs
+diff between efs and s3
+how to secure s3 bucket
+s3 bucket classes
+what is terraform
+what is modules
+what is blocks in terraform
+what is kubernetes
+how to monitor pods in kubernetes
+have you deployed application on jenkins or kubernetes
+stages of in jenkins pipeline you used
+field of passwd 
+explain crontab 
+how to check the running process 
+types of records 
+what is tfstate file 
+how to secure tfstate file in terraform 
+what is CMD and ENTRIPOINT in docker 
+port of DNS
+what is demonset 
+VPC limitaition in one region 
+how many subnet, SG, RT in one VPC
+what is Replication Controller 
+what is Autoscaling
+what is kernel.
+type of kernel 
+which kernel we use in Linux
+explain crontab and its field
+what is terraform local and terraform variable 
+what is configmap 
+what is secret 
+How to secure tfstate file in terraform.
+what is shadow and its field
+what is demonset 
+what is statefulset
+what is package management and what is the main purpose.
+what is endpoint 
+what is nat gataeway
+what is Route-53
+Records of Route-53
+how to check CPU information in Linux
+port of NFS 
+Port of MariaDB
+field of passwd
+what is endpoint 
+what is route-53
+explain records of route-53
+explain s3-backend in terraform
+what is terraform local and terraform variable
+what is secrets in k8s
+describe the services in k8s
+what is package management 
+explain k8s architure \
+explain docker architure \
+explain bucket \
+tell me some networking commands \
+how to do torubleshoot if connection between two server is not working? \
+have you deployed application on kubernetes? \
+what is cluster ip? \
+have you deployed application on docker? \
+what are the objects in k8s? \
+have you done any deployment on k8s?
+what is process management all commands of check process.
+how users add , in group , how set permission.
+Tell about /etc
+networking commands in linux.
+why use AWS .
+why use S3 services.
+which project you did.
+what is Git & Git Hub.
+Why use Git.
+What is Terraform.
+Resorces in Terraform.
+What is Docker , Why Use Docker.
+what is Docker File , Immages , Container.
+Objects in K8S.
+What is Pod , Replica set , controller...
+Pod HPA( horizintal Pod Scaling ).
+Branching Stragety.
 type of pipeline 
 conf file of user 
 difference between useradd and adduser
