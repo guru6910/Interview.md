@@ -99,3 +99,5 @@ Linux let the hordware and software work together with smoothly on our device.
 77. How to check private ip ?
 78. how to check public ip ?
 79. what is CIDR ?
+80. where is store at files which we created.
+81.  where is store cron files which we created.
