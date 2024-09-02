@@ -97,4 +97,6 @@
 97. what is type of pipeline ?
 98. resource in terraform.
 99. what is cluster ip ?
-100. what is blocks in terraform ?
+100. what is terraform import command ?
+101. what is tent command in terraform ?
+102. 
