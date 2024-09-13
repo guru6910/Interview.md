@@ -99,3 +99,5 @@
 99. what is cluster ip ?
 100. what is terraform import command ?
 101. what is tent command in terraform ?
+102. why container is lightwated ?
+103. what is docker community edition and enterprise edition ?
