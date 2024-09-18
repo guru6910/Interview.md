@@ -1,5 +1,5 @@
 1. What is Linux.
--> 
+ 
 Linux is a kernel. 
 It is free to use, open-source, and highly customizable.
 linux is a open source thats why we can use it and create a new operating system.
@@ -7,51 +7,51 @@ linux is created by LINUS TORVALD in 17 september 1991.
 Linux let the hordware and software work together with smoothly on our device.
 
 2. What is kernel.
-->     
+     
 The kernel is the core part of an operating system. It acts as a bridge between the hardware and software, managing system resources like CPU, memory, and devices. It also helps applications communicate with the hardware without needing to know the details of how the hardware works.
 
 3. Types of Kernel.
--> 
+ 
 There are mainly two types of kernels:
 **1. Monolithic Kernel:** In this type, the entire operating system runs in the kernel space. All the basic services, like device drivers, file system management, and system calls, are part of the kernel. It's fast but can be harder to maintain or debug.
 **2. Microkernel:** In a microkernel system, only the essential functions, like communication between hardware and software, run in the kernel space. Other services, like device drivers and file management, run in user space. It's easier to maintain and more secure, but might be a bit slower due to the extra communication between user space and kernel space.
 
 4. which kernel we use in linux ?
--> 
+ 
 We use Monolithic kernel in linux.
 
 5. what is virtualization ?
--> 
+ 
 Vertualization is technology that lets us to create multiple virtual machine on a single physical server. virtualization allows you to run many operating systems or applications at the same time. Each virtual environment behaves like its own separate machine, even though they are all sharing the same hardware.
 
 7. what is Hyperviosor ?
--> 
+
 A hypervisor is software that allows you to create and run virtual machines (VMs) on a physical computer. It acts as a middle layer between the physical hardware and the virtual machines. Each VM runs its own operating system, and the hypervisor makes sure that all VMs can share the physical resources like CPU, memory, and storage without interfering with each other.
   there are two type of Hypervisor. first one is Type 1 Bare metal This type runs directly on the physical hardware.It's often used in large data centers. then second one is Type2 Hosted This type runs on top of an existing operating system like Windows or Linux. It's more commonly used on personal computers.
 
 9. what is shell ?
--> 
+
 A shell is a program that provides an interface for users to interact with the operating system. It allows you to run commands, execute scripts, and manage files or processes. You can think of it as a bridge between the user and the computer's operating system.
 
 11. Difference between Windows and linux.
 
 12. what is operating system ?
--> 
+
 An operating system (OS) is the main software that runs on a computer and manages both the hardware and software. It acts as a bridge between the user and the computer hardware, helping to run applications, manage files, and control devices like the CPU, memory, and storage.
 
 14. Architecture of linux.
--> 
+
 
 15. What is Relative path and Absolute path ?
-->
+
 A relative path is a path that starts from the current working directory. It does not include the full path from the root but instead uses a shortcut based on where you currently are. An absolute path is a full path that starts from the root directory of the filesystem. It provides the complete address to a file or directory.
 
 16. Which Hypervisor we use in linux and AWS ?
--> 
+
 I used VMware and VirtualBox in Linux and AWS uses the Xen hypervisor for most of its instances, but it has also started using Nitro for newer instance types, which provides better performance and security.
 
 17. Explain Hirarchy ?
--> 
+
 
 18. Explain classification of OS ?
 19. what is the difference between /root & /home ?
