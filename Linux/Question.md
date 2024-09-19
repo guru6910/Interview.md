@@ -111,7 +111,13 @@ when we add user in linux system its been create a 7 entries.
 - /var/spool/mail
 
 31. Field of passwd ?
+
+uname:link of encrypted password:uid:gid:comment:home directory of user:shell 
+
 32. field of group & gshadow.
+
+
+
 33. field of shadow ?
 34. what is skelton file ?
 35. what is the difference between useradd and adduser ?
