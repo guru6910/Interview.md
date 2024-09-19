@@ -133,9 +133,9 @@ useradd is a low level command It does not set up default directories, user pass
 
 36. UID of system user, root user, local user.
 
-#Root user uid : 0
-  System User uid : 1 - 999
-$ Local user uid : 1000 + 
+Root user uid : 0     #
+System User uid : 1 - 999
+Local user uid : 1000 +   $
 
 37. what is metadata ?
 
@@ -167,6 +167,18 @@ In Linux permissions we can modify the permission of files and directories means
 then we assign permission to owner, group and others then we difine ownership. in permission management we can define permission with numeric and also symbolic. we can change ownership with `chown` command and give the permission with `chmod` command. we also give a granular permission to user of specific file using ACL. 
 
 44. Field of file.
+
+- type of file
+- owner permission
+- group permission
+- other permission
+- Link count
+- owner
+- group
+- Size
+- timstamp
+- name of file 
+
 45. what is inode number and how to check it ?
 46. type of files.
 47. what is chmod , chown , chgrp , chage ?
