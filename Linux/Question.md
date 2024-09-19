@@ -116,19 +116,56 @@ uname:link of encrypted password:uid:gid:comment:home directory of user:shell
 
 32. field of group & gshadow.
 
-
+Field of Group : group name:Link of encrypted passwd:Gid:Members in group
+Field of gshadow : group name:Link of encrypted passwd:Gid:Members in group 
 
 33. field of shadow ?
+
+username:encryptedpasswd:lastchangepasswd:Minimum password age:maximum password age:password expiry worning:Password Inactivity Period:Account Expiry Date:Reserved for future use
+
 34. what is skelton file ?
+
+the skeleton file is refers to a set of defaults file and configurations that are automatically copied at new users home directory when user created. These skeleton files are typically located in the /etc/skel directory. When a new user is added to the system using tools like useradd, the contents of /etc/skel are copied to the new user's home directory. This ensures that each user starts with the same initial setup, such as default configuration files for shells, editors, or other programs. Common Skeleton Files: `.bashrc` A configuration file for the bash shell. `.profile` A user profile script for environment settings.`.bash_logout` Script run when logging out of a bash shell.
+
 35. what is the difference between useradd and adduser ?
+
+useradd is a low level command It does not set up default directories, user passwords, or other user-specific configurations. and adduser is a higher level command It provides an interactive process, asking for the user's password, full name, home directory, default shell.  adduser automatically creates a home directory, whereas useradd needs the -m flag to do so.
+
 36. UID of system user, root user, local user.
+
+# Root user uid : 0
+  System User uid : 1 - 999
+$ Local user uid : 1000 + 
+
 37. what is metadata ?
+
+Metadata is data that provides information about other data. In a file system, metadata includes details like file name, size, creation date, and permissions, but not the file's content.
+
 38. what is the purpose of user management ?
+
+The purpose of user management is to control who can access a system and what they can do. It ensures that each person has the right permissions based on their job or role. By managing users properly, you keep the system secure, make sure resources are used correctly, and can track what each user is doing.
+
 39. what is the purpose of group management ?
+
+The purpose of group management is to make it easier to manage user permissions by organizing users into groups. Instead of giving permissions to each person one by one, administrators can give permissions to a group, and everyone in that group gets the same access. This saves time and makes it simpler to control who can access certain resources.
+
 40. where is the store password and link of password ?
+
+stored password in /etc/passwd and /etc/group  and stored link of password in /etc/shadow/ and /etc/gshadow.
+
 41. how to hide and unhide link of password ?
+
+we can hide and unhide link of password usin `pwconv` and `pwunconv`. 
+
 42. what is the link count of file and directory ?
+
+In linux file system link count of file is `1` and link count of directory is `2`.
+
 43. Explain permission management ?
+
+In Linux permissions we can modify the permission of files and directories means define who access the file or directory. in that we can give three ways of permissions first one is READ for allow the read file content, second is Write for the Allows modifying or deleting the file and last is Execute Allows running the file as a program or script.
+then we assign permission to owner, group and others then we difine ownership. in permission management we can define permission with numeric and also symbolic. we can change ownership with `chown` command and give the permission with `chmod` command. we also give a granular permission to user of specific file using ACL. 
+
 44. Field of file.
 45. what is inode number and how to check it ?
 46. type of files.
