@@ -180,13 +180,41 @@ then we assign permission to owner, group and others then we difine ownership. i
 - name of file 
 
 45. what is inode number and how to check it ?
+
+An inode number is a unique identifier assigned to each file or directory in a filesystem on Unix-like operating systems, including Linux. It contains metadata about the file or directory but not the filename or the actual data content. and we can check inode number with command `ls -a`.
+
 46. type of files.
+
+there are seven types of files it classified into two type first one is User Define files and System define files. User define files is normal file(-), directory file(d), link file(l) and then system define files is block device file(b), pipe or fifo file(p), charachter file(c) and socket file(s). A user define files is executable from user and system define file is default by system.
+
 47. what is chmod , chown , chgrp , chage ?
+
+chmod: Changes file or directory permissions.
+chown: Changes file or directory ownership.
+chgrp: Changes the group ownership of a file or directory.
+chage: Manages password expiry information for users.
+
 48. how many ways to give permission ?
+
+Permissions in Linux can be set in three ways: read, write, and execute. These permissions are assigned to three categories: owner, group, and others.
+
 49. difference between Hardlink & Softlink.
+
+
+
 50. what is newgrp command ?
+
+The newgrp command allows you to switch to a different group within your current session, so you can access or modify files with the permissions of that group.
+
 51. what is the purpose of ACL ?
+
+The purpose of Access Control list in Linux to assign at Granular level permission to user, group on file and directory. we can assign permission of file to a single user or group.
+
 52. why we use umask and desrcribe umask of root & local user ?
+
+We use umask in linux system to set default permissin to newly created file and directory. but it deoends on user which user set or create a file or directory. 
+the default umask of root user is 022 and umask of local user is 002. when root user create a directory its default permission is 755 and when create file its default permission is 644. and when local user create a directory its default permission 
+
 53. Explain Special permissions ?
 54. what is sudoers file ?
 55. Port numbers ?
