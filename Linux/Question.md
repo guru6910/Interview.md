@@ -181,7 +181,7 @@ then we assign permission to owner, group and others then we difine ownership. i
 
 45. what is inode number and how to check it ?
 
-An inode number is a unique identifier assigned to each file or directory in a filesystem on Unix-like operating systems, including Linux. It contains metadata about the file or directory but not the filename or the actual data content. and we can check inode number with command `ls -a`.
+An inode number is a unique identifier assigned to each file or directory in a filesystem on Unix-like operating systems, including Linux. It contains metadata about the file or directory but not the filename or the actual data content. and we can check inode number with command `ls -i`.
 
 46. type of files.
 
@@ -213,54 +213,61 @@ The purpose of Access Control list in Linux to assign at Granular level permissi
 52. why we use umask and desrcribe umask of root & local user ?
 
 We use umask in linux system to set default permissin to newly created file and directory. but it deoends on user which user set or create a file or directory. 
-the default umask of root user is 022 and umask of local user is 002. when root user create a directory its default permission is 755 and when create file its default permission is 644. and when local user create a directory its default permission 
+the default umask of root user is 022 and umask of local user is 002. when root user create a directory its default permission is 755 and when create file its default permission is 644. and when local user create a directory its default permission is 775 and when its create a file then its default permission is 664. we can set umask set default permission for newly created file or directories. we also set umask permanent.
 
 53. Explain Special permissions ?
+
+
+
 54. what is sudoers file ?
+
+
 55. Port numbers ?
-    - NFS
-    - FTP
-    - SMTP
-    - JENKINS
-    - MARIADB
-    - POSTGRESQL
-    - IMAP
-    - NODEJS
-    - GRAFANA
-    - REACTS
-    - TOMCAT
-    - PROMETHEUS
-    - NODE EXPORTER
-    - SONARQUBE
-56. explain job scheduling ?
-57. difference between cron and at ?
-58. Field of crontab ?
-59. Explain Search Filter & Utility commands ?
-60. what is Archiving and Compression ?
-61. explain type of compression ?
-62. what is Firewall ?
-63. what is package management ?
-64. diffrence between yum & rpm.
-65. what is process management ?
-66. what is process id ?
-67. what is nice value and priority ?
-68. how to kill process id ?
-69. what is foreground and background (demonset) process.
-70. what is Networking and its type ?
-71. explain some componants of Network ?
-72. Exolain OSI model.
-73. difference between public and private ip.
-74. rages of private ip.
-75. ranges of public ip.
-76. explain IP adrressing.
-77. Difference between IPV4 & IPV6.
-78. Reserved IP in Linux.
-79. what is range of port.
-80. what is broadcast ip ?
-81. Explain TCP and its work ?
-82. difference between TCP & UDP.
-83. How to check private ip ?
-84. how to check public ip ?
-85. what is CIDR ?
-86. where is store at files which we created.
-87. where is store cron files which we created.
+
+    - NFS -> 2049
+    - FTP -> 20 & 21
+    - SMTP -> 25
+    - JENKINS -> 8080
+    - MARIADB -> 3306
+    - POSTGRESQL -> 5432
+    - IMAP -> 143
+    - NODEJS -> 3000
+    - GRAFANA -> 3000
+    - REACTS -> 3000
+    - TOMCAT -> 8080
+    - PROMETHEUS -> 9090
+    - NODE EXPORTER -> 9091
+    - SONARQUBE -> 9000
+
+57. explain job scheduling ?
+58. difference between cron and at ?
+59. Field of crontab ?
+60. Explain Search Filter & Utility commands ?
+61. what is Archiving and Compression ?
+62. explain type of compression ?
+63. what is Firewall ?
+64. what is package management ?
+65. diffrence between yum & rpm.
+66. what is process management ?
+67. what is process id ?
+68. what is nice value and priority ?
+69. how to kill process id ?
+70. what is foreground and background (demonset) process.
+71. what is Networking and its type ?
+72. explain some componants of Network ?
+73. Exolain OSI model.
+74. difference between public and private ip.
+75. rages of private ip.
+76. ranges of public ip.
+77. explain IP adrressing.
+78. Difference between IPV4 & IPV6.
+79. Reserved IP in Linux.
+80. what is range of port.
+81. what is broadcast ip ?
+82. Explain TCP and its work ?
+83. difference between TCP & UDP.
+84. How to check private ip ?
+85. how to check public ip ?
+86. what is CIDR ?
+87. where is store at files which we created.
+88. where is store cron files which we created.
