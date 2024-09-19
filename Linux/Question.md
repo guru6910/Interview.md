@@ -133,7 +133,7 @@ useradd is a low level command It does not set up default directories, user pass
 
 36. UID of system user, root user, local user.
 
-# Root user uid : 0
+#Root user uid : 0
   System User uid : 1 - 999
 $ Local user uid : 1000 + 
 
