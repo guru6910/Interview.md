@@ -54,42 +54,59 @@ I used VMware and VirtualBox in Linux and AWS uses the Xen hypervisor for most o
 
 
 18. Explain classification of OS ?
+
+single user single tasking, single user multy tasking, multy user single tasking, multy user multy tasking. 
+
 19. what is the difference between /root & /home ?
+
+/root: Home directory of the root user (superuser), located directly under `/`, with access restricted to the root user. /home: Directory containing home directories of all regular users, with each user having their own folder (e.g., `/home/username`). Regular users have access only to their own directories.
+
 20. Explain Boot process ?
-21. explain vim editor with modes ?
-22. how to check the kernel and kernel version ?
-23. how to check the machine we use?
-24. how to check memory ?
-25. how to check the storage ?
-26. how to check shell we use ?
-27. where is stored the shells ?
-28. Explain Redirectors ?
-29. 7 entries of user when its create ?
-30. Field of passwd ?
-31. field of group & gshadow.
-32. field of shadow ?
-33. what is skelton file ?
-34. what is the difference between useradd and adduser ?
-35. UID of system user, root user, local user.
-36. what is metadata ?
-37. what is the purpose of user management ?
-38. what is the purpose of group management ?
-39. where is the store password and link of password ?
-40. how to hide and unhide link of password ?
-41. what is the link count of file and directory ?
-42. Explain permission management ?
-43. Field of file.
-44. what is inode number and how to check it ?
-45. type of files.
-46. what is chmod , chown , chgrp , chage ?
-47. how many ways to give permission ?
-48. difference between Hardlink & Softlink.
-49. what is newgrp command ?
-50. what is the purpose of ACL ?
-51. why we use umask and desrcribe umask of root & local user ?
-52. Explain Special permissions ?
-53. what is sudoers file ?
-54. Port numbers ?
+
+21. explain vim editor. 
+
+vim is a very powerful and configurable editor in Linux system. it's very simple when we learned shortcut in that. 
+
+22. Modes of Vim editor. 
+
+there are four modes in vim editor: first one is Normal mode for navigate and edit text then second is insert mode for write a text later third is visual mode for selecting the text and last one is command mode for perform action like saving, quiting or searching. 
+
+23. how to check the kernel and kernel version ?
+
+
+
+24. how to check the machine we use?
+25. how to check memory ?
+26. how to check the storage ?
+27. how to check shell we use ?
+28. where is stored the shells ?
+29. Explain Redirectors ?
+30. 7 entries of user when its create ?
+31. Field of passwd ?
+32. field of group & gshadow.
+33. field of shadow ?
+34. what is skelton file ?
+35. what is the difference between useradd and adduser ?
+36. UID of system user, root user, local user.
+37. what is metadata ?
+38. what is the purpose of user management ?
+39. what is the purpose of group management ?
+40. where is the store password and link of password ?
+41. how to hide and unhide link of password ?
+42. what is the link count of file and directory ?
+43. Explain permission management ?
+44. Field of file.
+45. what is inode number and how to check it ?
+46. type of files.
+47. what is chmod , chown , chgrp , chage ?
+48. how many ways to give permission ?
+49. difference between Hardlink & Softlink.
+50. what is newgrp command ?
+51. what is the purpose of ACL ?
+52. why we use umask and desrcribe umask of root & local user ?
+53. Explain Special permissions ?
+54. what is sudoers file ?
+55. Port numbers ?
     - NFS
     - FTP
     - SMTP
@@ -104,35 +121,35 @@ I used VMware and VirtualBox in Linux and AWS uses the Xen hypervisor for most o
     - PROMETHEUS
     - NODE EXPORTER
     - SONARQUBE
-55. explain job scheduling ?
-56. difference between cron and at ?
-57. Field of crontab ?
-58. Explain Search Filter & Utility commands ?
-59. what is Archiving and Compression ?
-60. explain type of compression ?
-61. what is Firewall ?
-62. what is package management ?
-63. diffrence between yum & rpm.
-64. what is process management ?
-65. what is process id ?
-66. what is nice value and priority ?
-67. how to kill process id ?
-68. what is foreground and background (demonset) process.
-69. what is Networking and its type ?
-70. explain some componants of Network ?
-71. Exolain OSI model.
-72. difference between public and private ip.
-73. rages of private ip.
-74. ranges of public ip.
-75. explain IP adrressing.
-76. Difference between IPV4 & IPV6.
-77. Reserved IP in Linux.
-78. what is range of port.
-79. what is broadcast ip ?
-80. Explain TCP and its work ?
-81. difference between TCP & UDP.
-82. How to check private ip ?
-83. how to check public ip ?
-84. what is CIDR ?
-85. where is store at files which we created.
-86. where is store cron files which we created.
+56. explain job scheduling ?
+57. difference between cron and at ?
+58. Field of crontab ?
+59. Explain Search Filter & Utility commands ?
+60. what is Archiving and Compression ?
+61. explain type of compression ?
+62. what is Firewall ?
+63. what is package management ?
+64. diffrence between yum & rpm.
+65. what is process management ?
+66. what is process id ?
+67. what is nice value and priority ?
+68. how to kill process id ?
+69. what is foreground and background (demonset) process.
+70. what is Networking and its type ?
+71. explain some componants of Network ?
+72. Exolain OSI model.
+73. difference between public and private ip.
+74. rages of private ip.
+75. ranges of public ip.
+76. explain IP adrressing.
+77. Difference between IPV4 & IPV6.
+78. Reserved IP in Linux.
+79. what is range of port.
+80. what is broadcast ip ?
+81. Explain TCP and its work ?
+82. difference between TCP & UDP.
+83. How to check private ip ?
+84. how to check public ip ?
+85. what is CIDR ?
+86. where is store at files which we created.
+87. where is store cron files which we created.
