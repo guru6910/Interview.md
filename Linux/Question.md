@@ -13,8 +13,8 @@ The kernel is the core part of an operating system. It acts as a bridge between 
 3. Types of Kernel.
  
 There are mainly two types of kernels:
-**1. Monolithic Kernel:** In this type, the entire operating system runs in the kernel space. All the basic services, like device drivers, file system management, and system calls, are part of the kernel. It's fast but can be harder to maintain or debug.
-**2. Microkernel:** In a microkernel system, only the essential functions, like communication between hardware and software, run in the kernel space. Other services, like device drivers and file management, run in user space. It's easier to maintain and more secure, but might be a bit slower due to the extra communication between user space and kernel space.
+**1. Monolithic Kernel:** In this type, the entire operating system runs in the kernel space. In monolithic kernel user and monolithic serices are kept in same address space.
+**2. Microkernel:** In a microkernel system, only the essential functions, like communication between hardware and software, run in the kernel space. Other services, like device drivers and file management, run in user space. In microkernel user services and kernel services are kept in separate address space.
 
 4. which kernel we use in linux ?
  
@@ -73,15 +73,43 @@ there are four modes in vim editor: first one is Normal mode for navigate and ed
 
 23. how to check the kernel and kernel version ?
 
-
+We can see the kernel and krnel verison with the command like `uname`, `uname -r`, `uname -sr`
 
 24. how to check the machine we use?
+
+we can check the machine we use with `cat /etc/os-release`, `lsb_release -a`
+
 25. how to check memory ?
+
+we check the memory using `free` command in that we can see memory and swap memory also.
+
 26. how to check the storage ?
+
+we check the storage using `df -hT` command.
+
 27. how to check shell we use ?
+
+we can check the shell we use with `echo $SHELL` & `echo $0`
+
 28. where is stored the shells ?
+
+shell stored at /etc/shells.
+
 29. Explain Redirectors ?
+
+we use redirector to append output or error in files with its type like >, >>, 2>, 2>>, &> and &>>. in that when we use single redirector that time it overwrite with previous text or error and when we use >> redirector that time my old text and new text or error both are saved in that file.
+
 30. 7 entries of user when its create ?
+
+when we add user in linux system its been create a 7 entries.
+- /home/username
+- /etc/passwd
+- /etc/group
+- /etc/shadow
+- /etc/gshadow
+- /wtc/skel
+- /var/spool/mail
+
 31. Field of passwd ?
 32. field of group & gshadow.
 33. field of shadow ?
