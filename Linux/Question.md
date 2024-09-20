@@ -264,17 +264,53 @@ In linux job scheduling let us to automate the task at specific time which we se
 Archiving is the process of collecting multiple files into a single file (an archive) to make storage or transfer easier. And Compression use to reduce file size of files or an archive to save space or make it quicker to transfer over networks.Often, archiving and compression are used together: you archive files into one file and then compress that file to save space. we compress files using gzip, bzip2 and xz. in xz possibilities to data losses.  
 
 62. explain type of compression ?
+
+there are three type of compression gzip, bzip2 and xzip. all compression is use to compress the archive file but in xzip posibilities of data losses. we use gunzip, bunzip2 and unxz to decompress the file.
+
 63. what is Firewall ?
+
+A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules. Its primary purpose is to create a barrier between a trusted internal network and untrusted external networks, such as the internet. firewalls are essential for maintaining network security by regulating traffic and protecting systems from attacks."
+
 64. what is package management ?
+
+Package management is the process of handling software packages in a Linux system. It involves installing, upgrading, configuring, and removing software applications and their dependencies. in that we use package manager like apt and yum, apt is used in Debian based distribution like ubuntu and yum is used in Red Hat based distribution like CentOS.
+
 65. diffrence between yum & rpm.
+
+
+
 66. what is process management ?
+
+Process management is refers to manage the process of operating system. manage the processes like creating , scheduling and terminating. in that we also set the nice value for configure priority of processes and range of nice value is -20 to 19. 
+
 67. what is process id ?
+
+In process management, a Process ID (PID) is a unique numerical identifier assigned by the operating system to each running process. The PID is used by the system to keep track of processes and manage them efficiently.
+
 68. what is nice value and priority ?
+
+the nice value is a setting that allows users to adjust the priority of a process. It affects how much CPU time that process gets compared to others. The nice value can range from -20 (highest priority) to 19 (lowest priority), with 0 as the default. A lower nice value means the process will run faster and get more CPU time, while a higher nice value means it will run slower and get less CPU time. By changing the nice value, users can help manage system performance. 
+
 69. how to kill process id ?
+
+We can kill the process with `kill` command using process id. like `kill -9 <PID>`
+
 70. what is foreground and background (demonset) process.
+
+A foreground process is one that interacts directly with the user. It occupies the terminal, and you can give it inputs, while it outputs data directly to the screen.You must wait for the process to complete before entering new commands in the terminal. A background process runs without user interaction and allows you to continue using the terminal for other tasks. These processes are usually started with an `&` symbol. You can run multiple tasks without waiting for one to finish.
+
 71. what is Networking and its type ?
+
+Networking refers to the practice of connecting computers and other devices together to share resources, exchange data, and communicate. It involves the design, implementation, and management of connections between devices in a network. there are some types of Network like personal area network for communicate betwwen personal devices like our phone connect with blutooth then Local Area Network for connects devices within a limited geographic area, such as a home, school, or office building. then after Metropoliton Area Network to connects devices across a city or a large campus, It's often used by organizations or municipalities to connect multiple buildings. then Wide Area Network for connect a large geographic area, connecting multiple LANs. It can connect cities, countries even all over worlds.
+
 72. explain some componants of Network ?
-73. Exolain OSI model.
+
+I have knowledge about some componants like Routers for Connect different networks and route data packets between them, then Switch to Connect multiple devices within the same network (LAN) and forward data to specific devices based on their MAC addresses. then after Network Interface Card for Hardware that enables a device to connect to a network. NICs can be wired (Ethernet) or wireless (Wi-Fi). then after Bridge to Connect two or more network segments, allowing them to function as a single network. A bridge connecting two separate LANs in a building. These components work together to create and maintain a network, enabling communication and data exchange between devices
+
+73. Explain OSI model.
+
+
+
 74. difference between public and private ip.
 75. rages of private ip.
 76. ranges of public ip.
