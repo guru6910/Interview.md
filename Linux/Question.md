@@ -217,10 +217,11 @@ the default umask of root user is 022 and umask of local user is 002. when root 
 
 53. Explain Special permissions ?
 
-
+"We use special permissions to offer more control over files and directories. There are three types of special permissions. SUID (Set User ID), SGID (Set Group ID) and  Sticky Bit. When we set SUID on a file, all users executing that file will have the file owner's privileges, often root. This allows normal users to perform tasks that require elevated privileges then after When SGID is assigned to a directory, any file or directory created inside will inherit the parent directory's group, not the user's default group. This is useful for maintaining group ownership consistency in shared directories later When the Sticky Bit is set on a directory, users cannot delete or modify files that they do not own, even if they have write permissions to the directory. Only the file owner or the root user can delete or modify their own files. 
 
 54. what is sudoers file ?
 
+The sudoers file is a configuration file in Linux that controls which users or groups have permission to run commands as the superuser (root) or another user, using sudo. It’s located at /etc/sudoers.
 
 55. Port numbers ?
 
@@ -240,10 +241,28 @@ the default umask of root user is 022 and umask of local user is 002. when root 
     - SONARQUBE -> 9000
 
 57. explain job scheduling ?
+
+In linux job scheduling let us to automate the task at specific time which we set. In job scheduling Two tool for configure jobs first one is cron and second is at. cron is periodic schedular means its can execute multiple times we scheduled cron job with five fuilds `minute`, `Hour`, `Day of month`, `Month`, `week of the day`. and at is a nonperiodic means it execute at single time. 
+
 58. difference between cron and at ?
+
+
 59. Field of crontab ?
+
+- minute of hour
+- hour of day
+- day of month
+- month of year
+- week of the day
+
 60. Explain Search Filter & Utility commands ?
+
+
+
 61. what is Archiving and Compression ?
+
+Archiving is the process of collecting multiple files into a single file (an archive) to make storage or transfer easier. And Compression use to rduce file size of files or an archive to save space or make it quicker to transfer over networks.Often, archiving and compression are used together: you archive files into one file and then compress that file to save space. we compress files using gzip, bzip2 and xz. in xz possibilities to data losses.  
+
 62. explain type of compression ?
 63. what is Firewall ?
 64. what is package management ?
