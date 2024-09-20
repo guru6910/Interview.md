@@ -261,7 +261,7 @@ In linux job scheduling let us to automate the task at specific time which we se
 
 61. what is Archiving and Compression ?
 
-Archiving is the process of collecting multiple files into a single file (an archive) to make storage or transfer easier. And Compression use to rduce file size of files or an archive to save space or make it quicker to transfer over networks.Often, archiving and compression are used together: you archive files into one file and then compress that file to save space. we compress files using gzip, bzip2 and xz. in xz possibilities to data losses.  
+Archiving is the process of collecting multiple files into a single file (an archive) to make storage or transfer easier. And Compression use to reduce file size of files or an archive to save space or make it quicker to transfer over networks.Often, archiving and compression are used together: you archive files into one file and then compress that file to save space. we compress files using gzip, bzip2 and xz. in xz possibilities to data losses.  
 
 62. explain type of compression ?
 63. what is Firewall ?
