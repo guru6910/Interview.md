@@ -276,10 +276,11 @@ A firewall is a network security device or software that monitors and controls i
 Package management is the process of handling software packages in a Linux system. It involves installing, upgrading, configuring, and removing software applications and their dependencies. in that we use package manager like apt and yum, apt is used in Debian based distribution like ubuntu and yum is used in Red Hat based distribution like CentOS.
 
 65. diffrence between yum & rpm.
+66. diffrence btween `curl` & `wget`.
 
 
 
-66. what is process management ?
+67. what is process management ?
 
 Process management is refers to manage the process of operating system. manage the processes like creating , scheduling and terminating. in that we also set the nice value for configure priority of processes and range of nice value is -20 to 19. 
 
@@ -296,6 +297,9 @@ the nice value is a setting that allows users to adjust the priority of a proces
 We can kill the process with `kill` command using process id. like `kill -9 <PID>`
 
 70. what is foreground and background (demonset) process.
+71. what is Zombie ?
+72. what is Load Average ?
+73. Fields of `top` command.
 
 A foreground process is one that interacts directly with the user. It occupies the terminal, and you can give it inputs, while it outputs data directly to the screen.You must wait for the process to complete before entering new commands in the terminal. A background process runs without user interaction and allows you to continue using the terminal for other tasks. These processes are usually started with an `&` symbol. You can run multiple tasks without waiting for one to finish.
 
