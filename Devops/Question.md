@@ -1,8 +1,23 @@
 1. what is SDLC (software development life cycle) ?
+
+Software Development Life Cycle is a structured process used for software Delivery. The goal of SDLC is to deliver high-quality software that meets customer requirements within a specified timeline and budget. In SDLC common stages are to Define the project's scope, goals, resources, and risks then Requirement for knowing business and technical requirements for the software. later Design in that Create the architecture and detailed design of the software, including databases, interfaces, and system logic then Implementation (Development) to Write the actual code based on the design specifications. then Testing to Test the software for defects, bugs, and ensure it meets the requirements. then after Deployment means Release the software to the production environment for users and Last is Monitoring in that Provide ongoing support, bug fixes, and updates to improve performance or add new features.
+
 2. explain waterfall methodology.
-3. explain Agile methodology.
+
+The waterfall methodology is a sequential approach to software development. In this model each phase the project is completed one by one with no overlap. once the phase is finished you move to the next stage and you cant go back to previous phase easily.
+
+3. Explain Agile methodology.
+
+The Agile methodology is a flexible approach to software development where projects are divided into small, manageable parts called sprints. Teams work in short cycles to create and improve the product based on regular feedback from customers, allowing them to adapt to changes quickly. This helps ensure that the final product better meets user needs.
+
 4. Explain Devops.
+
+DevOps is a set of practices that combines software development and IT operations to improve collaboration, automate processes, and accelerate the delivery of high-quality software. It aims to shorten development cycles and enhance deployment frequency through continuous integration and continuous deployment (CI/CD).
+
 5. what work of devlopers and operations ?
+
+
+
 6. what is the main purpose of Devops ?
 7. Explain Git.
 8. Explain Github.
