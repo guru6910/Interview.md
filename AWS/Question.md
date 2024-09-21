@@ -1,5 +1,11 @@
 1. what is cloud ?
+
+Cloud computing is the delivery of computing services—such as storage, servers, databases, networking, software, and analytics—over the internet ("the cloud"). Instead of owning and maintaining physical data centers or servers, users can access these resources on-demand from cloud providers like AWS, Google Cloud, or Microsoft Azure. It offers flexibility, scalability, and cost savings by only paying for what is used.
+
 2. what is cloud computing ?
+
+Cloud computing is a technology that allows users to access and store data, run applications, and perform various computing tasks over the internet rather than using local servers or personal devices. It offers on-demand availability of resources like storage, computing power, and databases without the need for direct management by the user.
+
 3. Deployment model of cloud computing ?
 4. Service model of cloud computing ?
 5. Tell me about AWS.
