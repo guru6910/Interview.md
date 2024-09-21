@@ -16,23 +16,58 @@ DevOps is a set of practices that combines software development and IT operation
 
 5. what work of devlopers and operations ?
 
-
+Developers focus on writing code, building features, and fixing bugs in applications, whereas operations (Ops) manage the infrastructure, ensure servers are running smoothly, monitor system performance, and handle deployment. In a DevOps model, both work closely together to streamline the process, automating deployment and ensuring the application runs efficiently in different environments.
 
 6. what is the main purpose of Devops ?
+
+The main goal of DevOps is to improve collaboration between development and operations teams, enabling them to deliver software faster, more reliably, and at higher quality. This is achieved through automation, continuous integration, continuous delivery (CI/CD), and monitoring, leading to shorter release cycles, quicker issue resolution, and a more efficient development process.
+
 7. Explain Git.
+
+
 8. Explain Github.
+
+GitHub is a web-based platform built on Git that allows developers to host their Git repositories online. It provides tools for collaboration, such as pull requests, issue tracking, and code reviews. GitHub also integrates with other tools to automate workflows, such as continuous integration and deployment, making it easier to manage large projects.
+
 9. Difference between Centralized version control system & Distributed version control system.
+
+In a CVCS, like Subversion (SVN), all version history and project files are stored in a central server, and developers check out files to work on them. If the central server goes down, work is disrupted. In contrast, a DVCS like Git allows every developer to have a full copy of the repository, including its history. This enables faster local commits and offline work, while also reducing the risk of losing project data.
+
 10. Explain staging area.
+
+The staging area in Git is a middle step between modifying files in your working directory and committing them to the repository. You can stage changes selectively, preparing them for a commit, which allows you to break down changes into smaller, more meaningful commits. It’s essentially a “holding” area where you can review and edit what will be included in your next commit.
+
 11. Explain Branching strategy.
 12. Explain Environmentin git.
 13. what is stash command.
+
+The git stash command temporarily saves your uncommitted changes without deleting them from your working directory. This allows you to switch branches or work on something else, then return and reapply those changes when needed.
+
 14. what is cherry-pick command.
+
+The git cherry-pick command allows you to apply a specific commit from one branch onto another branch without merging the entire branch. It’s helpful when you want to pick out a bug fix or feature from one branch and apply it to another.
+
 15. what is rebase and merge command.
 16. what is commit in github.
+
+A commit is a snapshot of your project’s files at a specific point in time. When you make a commit in GitHub, it records what changes were made and by whom
+
 17. what is terraform.
+
+Terraform is an open-source Infrastructure as Code (IaC) tool that lets you define cloud and on-premise infrastructure using configuration files. It allows you to provision and manage resources like servers, databases, and networking components across multiple cloud providers, such as AWS, Azure, and Google Cloud, using a single language. we use also variable and module to reuse code.
+
 18. advantages of terraform.
+
+Terraform is cloud-agnostic, meaning it works with many cloud providers. It supports version control, making it easier to track infrastructure changes. It also enables automated infrastructure management, provides reusable modules, and uses a declarative syntax to define resources, which ensures consistency across environments.
+
 19. Home directory of terraform.
+
+.terraform
+
 20. what is terraform.tfstate file.
+
+
+
 21. how to secure tfstate file ?
 22. what is API ?
 23. difference between coludformation and terraform.
