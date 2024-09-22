@@ -418,11 +418,50 @@ In Jenkins, credentials are secure information that can be used by jobs and pipe
 Tool configuration in Jenkins refers to the process of setting up and managing various development, build, and testing tools that Jenkins pipelines and jobs can use. These tools are typically external utilities or software required by Jenkins to perform certain tasks such as compiling code, running tests, or deploying applications. we add in that tools such as JDK, maven, Git, Docker and SonarQube Scanner.
 
 95. explain Node in jenkins.
+
+In Jenkins, a Node refers to a machine, either physical or virtual, that Jenkins uses to run jobs or pipelines. Nodes can be the master node (now called controller) or agent nodes. Agents are connected to the master through various protocols (like SSH or JNLP). Each node can have specific labels, which allow you to assign jobs to specific agents based on their capabilities.
+- Master Node (Controller):
+
+The main Jenkins server or controller node is responsible for scheduling jobs, dispatching jobs to agent nodes for execution, and managing Jenkins resources and configurations.
+It also handles user requests, plugin management, and provides the web interface.
+- Agent Node:
+
+Agent nodes are machines that perform the actual work of building, testing, and deploying projects.
+The agent communicates with the master, accepts job instructions, executes them, and reports the result back to the master.
+You can have multiple agent nodes to distribute workloads and execute jobs concurrently on different platforms or environments.
+
 96. what is pipeline ?
+
+In Jenkins, a Pipeline is a suite of plugins that supports the implementation and automation of continuous delivery pipelines. It allows you to define the entire lifecycle of your software development process, from building and testing to deploying the application, in the form of code. A Jenkins pipeline is defined in a Jenkinsfile, which is a text file that contains the pipeline's definition. 
+
 97. what is type of pipeline ?
+
+The Jenkins pipeline has two main types:
+**1. Declarative Pipeline:**A higher-level, more readable syntax designed for users who may not be deeply familiar with Groovy (the language Jenkins pipeline is based on). The pipeline is defined inside a pipeline block and typically includes stages like build, test, and deploy.
+
+**2. Scripted Pipeline:**Offers more flexibility and is fully written in Groovy. It is a lower-level syntax that provides more control, but is more complex compared to the declarative style.
+
+
 98. resource in terraform.
+
+In Terraform, a resource is a key building block that defines infrastructure components such as servers, databases, load balancers, or any service you want to create and manage. Resources represent objects in your infrastructure, and by declaring them in your Terraform configuration files, you instruct Terraform to manage those objects.
+
 99. what is cluster ip ?
+
+In Kubernetes, a ClusterIP is a type of service that provides internal access to a set of Pods in the cluster. It is the default service type in Kubernetes and exposes the service on an internal IP address that is accessible only within the cluster.
+
 100. what is terraform import command ?
-101. what is tent command in terraform ?
+
+The terraform import command lets you bring existing infrastructure under Terraform's management without changing it. It updates Terraform's state file so that Terraform can track and manage resources created outside of Terraform.
+
+101. what is taint command in terraform ?
+
+The main reason to use the Terraform taint command is to mark a resource (such as an EC2 instance) as being in a bad or non-functional state. This ensures that it will be destroyed and recreated in the next terraform apply.
+
 102. why container is lightwated ?
+
+Containers are lightweight because they share the host OS kernel, avoiding the overhead of multiple operating systems. They start quickly, use fewer resources, and leverage a layered file system for efficiency.
+
 103. what is docker community edition and enterprise edition ?
+
+Docker Community Edition (CE) is a free, open-source version for individual developers, offering basic features and community support. Docker Enterprise Edition (EE) is a paid version for organizations, providing advanced features, commercial support, and enhanced security for production environments.
