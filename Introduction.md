@@ -1,10 +1,10 @@
 ## ${\color{red} \textbf{Intro}}$
 
 
-Hello sir my name is Gurudev Devkar and im currently residing in pune. I graduated from SRTM university with a degree in Bachelor of commerce. Since July 2022, I have been working at XYZ company, where I have gained extensive experience in DevOps methodologies, AWS and Linux system administration. 
+Hello sir my name is Gurudev Devkar and i'm currently residing in pune. I graduated from SRTM university with a degree in Bachelor of commerce. Since July 2022, I have been working at XYZ company, where I have gained extensive experience in DevOps methodologies, AWS and Linux system administration. 
 
 
-At XYZ company, my role particularly involved working with the operational part of DevOps.
+At XYZ company, my role involved working with the operational part of DevOps. I specialize in bridging the gap between development and operations teams for faster software delivery. 
 
 
 In the DevOps I have hands on experience with various tools such as version control with Git ad GitHub where I have managed projects locally with Git functions like branching strategies, handle code merging and rebasing and integrate git with CI/CD pipeline for code integration and deployment, and I also use webhook for automated the process of software delivery.
