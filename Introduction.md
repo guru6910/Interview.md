@@ -7,7 +7,7 @@ Hello sir my name is Gurudev Devkar and i'm currently residing in pune. I gradua
 At XYZ company, my role involved working with the operational part of DevOps. I specialize in bridging the gap between development and operations teams for faster software delivery. 
 
 
-In the DevOps I have hands on experience with various tools such as version control with Git ad GitHub where I have managed projects locally with Git functions like branching strategies, handle code merging and rebasing and integrate git with CI/CD pipeline for code integration and deployment, and I also use webhook for automated the process of software delivery.
+In the DevOps I have hands on experience with various tools such as Git ad GitHub for version control system where I have managed projects locally with Git functions like branching strategies, staging area, code merging and rebasing and integrate git with CI/CD pipeline for code integration and deployment, and I also use webhook for automated the process of software delivery.
 
 
 I have also worked with Terraform too build infrastructure on cloud mainly with AWS. I have also worked with variables and modules for reuse my code at any point ass well. And also used provisioners for execute script or command with resource creating then I used s3 backend for secure the tfstate file in s3 bucket.
