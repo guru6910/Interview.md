@@ -77,7 +77,7 @@ in the Devops i have hands on experience with various tools like git and GitHub 
 
 then i also worked with Terraform for build the infrastructure on cloud mainly in AWS. and used variable and modules for reuse the code and also provisioners for execute the sript and command when resource creating then i also used s3 backend for secure the tfstate file in s3 bucket.
 
-then i used Ansible for configuration management and deployment in that i have managed ansible playbook file for run multiple task to run task across multiple nodes then i have managed and organize set of group of hosts.
+then i used Ansible for configuration management and deployment in that i have managed ansible playbook file for run multiple task to run task across multiple nodes then inventory file for managed and organize set of group of hosts.
 
 then i used containerization tool like docker to run contarization application and create dockerfile with set of instructions, and pushed it on docker registry, then i also use docker compose for mange multiple containers. i also worked with docker volume and docker networking. 
 
