@@ -88,3 +88,15 @@ i also have experience with CI/CD tools such as Jenkins. in that i worked with p
 Additionaly i used prometheus and grafana for monitoring the application continuously and reliablly.
 
 This was my summary of my work in DevOps. 
+
+as for AWS i have experience with various services of AWS like IAM where i have manages user, group and roles and attach the different policies to them. 
+
+then come to computing service like ec2 where i have managed virtual machine, working with launching templates, and configure AMI for capture the current state of Instance, then worked with autoscaling groups and attached load balancing with target group to improve the performance of servers.
+
+then i have also used networking services like vpc and Route53 wher e i have designed custom VPC and work with its objects like subnets, internet gateway, route table, nat gateway, endpoints, Elastic ip, then enhance the communication between two vpc with peering connection and used transit gateway and VPN for own premises network.
+
+as per Route53 worked with DNS configuration including domain registration, hosted zones and working with DNS routing policies.
+
+then i also worked with database service like RDS and Storage services such as EFS and S3 where i managed object with its storage lifecycle. in that also hosted the static webpage and secure the bucket object with ACL, object lock and bucket policy. then i also used SNS service for notification and configure CloudWatch for matrix, alarms, logs, and dashboards to monitor system health. 
+
+then i also experience with Linux System like handling desktop OS like ubuntu , CentOS and Windows in which have managed system user and groups, then permission management, process management, package management, job scheduling, archive and compressionfor reduse the sile size, redirectors then i also work with network services like SSH, HTTP, NFS.  Even I have basic understanding of writing shell scripts for automation and creating backups.
