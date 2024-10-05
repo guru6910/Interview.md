@@ -437,9 +437,13 @@ In Jenkins, a Pipeline is a suite of plugins that supports the implementation an
 97. what is type of pipeline ?
 
 The Jenkins pipeline has two main types:
-**1. Declarative Pipeline:**A higher-level, more readable syntax designed for users who may not be deeply familiar with Groovy (the language Jenkins pipeline is based on). The pipeline is defined inside a pipeline block and typically includes stages like build, test, and deploy.
 
-**2. Scripted Pipeline:**Offers more flexibility and is fully written in Groovy. It is a lower-level syntax that provides more control, but is more complex compared to the declarative style.
+**1. Declarative Pipeline:** 
+A higher-level, more readable syntax designed for users who may not be deeply familiar with Groovy (the language Jenkins pipeline is based on). The pipeline is defined inside a pipeline block and typically includes stages like build, test, and deploy.
+
+**2. Scripted Pipeline:** 
+
+Offers more flexibility and is fully written in Groovy. It is a lower-level syntax that provides more control, but is more complex compared to the declarative style.
 
 
 98. resource in terraform.
