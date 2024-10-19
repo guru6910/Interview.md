@@ -9,10 +9,11 @@ Cloud computing is a technology that allows users to access and store data, run 
 3. Deployment model of cloud computing ?
 4. Service model of cloud computing ?
 5. Tell me about AWS.
-
-Amazon Web Services (AWS) is a comprehensive cloud computing platform provided by Amazon. AWS was one of the first companies to introduce a "pay-as-you-go" cloud computing model.
-
+6. 
 7. Which Hypervisor use AWS ?
+
+XEN hypervisor we use in AWS.
+
 8. what is static and Dynamic websight ?
 9. what is Bare metal cloud ?
 10. Explain Architecture of AWS.
