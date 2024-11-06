@@ -469,3 +469,6 @@ Containers are lightweight because they share the host OS kernel, avoiding the o
 103. what is docker community edition and enterprise edition ?
 
 Docker Community Edition (CE) is a free, open-source version for individual developers, offering basic features and community support. Docker Enterprise Edition (EE) is a paid version for organizations, providing advanced features, commercial support, and enhanced security for production environments.
+
+what is terraform locate 
+what is multistage container 
