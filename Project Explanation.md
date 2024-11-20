@@ -1,29 +1,13 @@
-So I’m currently working on a project to develop a CRM application for one of our clients. so we started the working on it. The project team size was 
-around 13 members where it has 3 frontend developer, 3 backend developer, 2 Fullstack developer, 2 testers, 1 system engineer, 1 project manager and 
-i was only DevOps Engineer responsible for handle the DevOps and and Infrastructure of project.
-If i talk about Tech stack of my project, The application has 5 frontends, 18 Backends and 18 databases. Frontend is build using HTML, Backend with 
-Angular and Maven and PostgreSQL is used for the Database. 
-If i talk about the Infrastructure of Project. we followed hybrid infrastructure where frontends deployed on serverless where as the Backend and 
-databases we deployed as the containerizatin for the frontend we used S3 bucket for the deploy static containts the main frontend expose with 
-the cloudbfront and Route53. Where as all the backends are deployed on the eks cluster which is expose through ingress loadbalancer and Route53 
-subdomains and the database created in RDS DB instance and it connected with the our Backends.
-If i talk about Deployment strategy We maintain four branches: Dev, Test, UAT, and Prod. Dev branch was the main branch of the developers. 
-So whenever developer wanted to create or make any changes or create any features they simply create the feature branch make changes and 
-merge back into the Dev. The generally we scheduled merges from Dev to Test every Friday then tester do  their testing. after tester give 
-a green signal then we merge test into the UAT for stakeholder approval  If the stakeholders approved the merge then we merge UAT into 
-the Prod and code will be deployed. A part from this we also created the hotfix from the Prod if we found any bug or the critical issue in 
-the production environment itself. So this hotfix branch created for the production and merge back into the Prod itself. 
-To smoothen all this process we used couple of Devops tools such as to store our source code we used GitHub, for automating this Integration 
-and the Deployment cicd pipeline we created in Jenkins, Infrastructure we deployed with the help of terraform, and for the monitoring tool 
-we were using Datadog, cluster is deployed on EKS and we were using docker to create and build image and the complete services we used of AWS.
-If I talk about the pipeline we had created four stage of pipeline Pull, Build, Test and Deploy and also added webhook along with the GitHub 
-so whenever developer push or merge the code pipeline shut get triggered. Pull stage get pull the source code from GitHub and The Build 
-we integrated maven to build the code and then goes to the sonarqube server for quality analysis in the test stage. If it pass from 
-the quality gate then Deploy stage gets executed otherwise pipeline get aborted. In the deploy stage we integrated docker and kubernetes 
-in the deploy stage image building with the help of docker build and then we pushed it image on ECR and we executed the kubectl apply for 
-the deploying our application on the eks cluster.
+So I’m currently working on a project to develop a CRM application for one of our clients. so we started the working on it. The project team size was around 13 members where it has 3 frontend developer, 3 backend developer, 2 Fullstack developer, 2 testers, 1 system engineer, 1 project manager and i was only DevOps Engineer responsible for handle the DevOps and and Infrastructure of project.
 
-I’ve been responsible for that project Writing a couple of Dockerfiles, Terraform scripts, and Kubernetes manifests. I wrote the Jenkins pipeline 
-and maintain the complete Jenkins server as responsible for the writing down the documentation and SOP's , creating designs for the project then 
-I was also responsible for accepting the merge request and I managed the repositories and the access also  managed the authentication part. 
-With over two years of experience, I focus on creating efficient, reliable, and scalable workflows to support the team and the project.
+If i talk about Tech stack of my project, The application has 5 frontends, 18 Backends and 18 databases. Frontend is build using HTML, Backend with Angular and Maven and PostgreSQL is used for the Database. 
+
+If i talk about the Infrastructure of Project. we followed hybrid infrastructure where frontends deployed on serverless where as the Backend and databases we deployed as the containerizatin for the frontend we used S3 bucket for the deploy static containts the main frontend expose with the cloudbfront and Route53. Where as all the backends are deployed on the eks cluster which is expose through ingress loadbalancer and Route53 subdomains and the database created in RDS DB instance and it connected with the our Backends.
+
+If i talk about Deployment strategy We maintain four branches: Dev, Test, UAT, and Prod. Dev branch was the main branch of the developers. So whenever developer wanted to create or make any changes or create any features they simply create the feature branch make changes and merge back into the Dev. The generally we scheduled merges from Dev to Test every Friday then tester do  their testing. after tester give a green signal then we merge test into the UAT for stakeholder approval  If the stakeholders approved the merge then we merge UAT into the Prod and code will be deployed. A part from this we also created the hotfix from the Prod if we found any bug or the critical issue in the production environment itself. So this hotfix branch created for the production and merge back into the Prod itself. 
+
+To smoothen all this process we used couple of Devops tools such as to store our source code we used GitHub, for automating this Integration and the Deployment cicd pipeline we created in Jenkins, Infrastructure we deployed with the help of terraform, and for the monitoring tool we were using Datadog, cluster is deployed on EKS and we were using docker to create and build image and the complete services we used of AWS.
+
+If I talk about the pipeline we had created four stage of pipeline Pull, Build, Test and Deploy and also added webhook along with the GitHub so whenever developer push or merge the code pipeline shut get triggered. Pull stage get pull the source code from GitHub and The Build we integrated maven to build the code and then goes to the sonarqube server for quality analysis in the test stage. If it pass from the quality gate then Deploy stage gets executed otherwise pipeline get aborted. In the deploy stage we integrated docker and kubernetes in the deploy stage image building with the help of docker build and then we pushed it image on ECR and we executed the kubectl apply for the deploying our application on the eks cluster.
+
+I’ve been responsible for that project Writing a couple of Dockerfiles, Terraform scripts, and Kubernetes manifests. I wrote the Jenkins pipeline and maintain the complete Jenkins server as responsible for the writing down the documentation and SOP's , creating designs for the project then I was also responsible for accepting the merge request and I managed the repositories and the access also  managed the authentication part. With over two years of experience, I focus on creating efficient, reliable, and scalable workflows to support the team and the project.
