@@ -30,6 +30,8 @@ The Agile methodology is a flexible approach to software development where proje
 
 DevOps is a set of practices that combines software development and IT operations to improve collaboration, automate processes, and accelerate the delivery of high-quality software. It aims to shorten development cycles and enhance deployment frequency through continuous integration and continuous deployment (CI/CD).
 
+--> refer to the notebook ans
+
 5. what work of devlopers and operations ?
 
 Developers focus on writing code, building features, and fixing bugs in applications, whereas operations (Ops) manage the infrastructure, ensure servers are running smoothly, monitor system performance, and handle deployment. In a DevOps model, both work closely together to streamline the process, automating deployment and ensuring the application runs efficiently in different environments.
