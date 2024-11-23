@@ -2,7 +2,7 @@
 
 --> Software Development Life Cycle is a structured process used for software Delivery. The goal of SDLC is to deliver high-quality software that meets customer requirements within a specified timeline and budget. In SDLC common stages are to Define the project's scope, goals, resources, and risks then Requirement for knowing business and technical requirements for the software. later Design in that Create the architecture and detailed design of the software, including databases, interfaces, and system logic then Implementation (Development) to Write the actual code based on the design specifications. then Testing to Test the software for defects, bugs, and ensure it meets the requirements. then after Deployment means Release the software to the production environment for users and Last is Monitoring in that Provide ongoing support, bug fixes, and updates to improve performance or add new features.
 
---> The Software Development Life Cycle (SDLC) is a step-by-step process that helps teams build high-quality software efficiently. It ensures the software meets customer needs, stays within budget, and is completed on time. Here's a simplified breakdown of its main stages:
+--> The Software Development Life Cycle (SDLC) is a step-by-step process. to goal of SDLC is, teams build high-quality software efficiently. It ensures the software meets customer needs, stays within budget, and is completed on time. Here's a simplified breakdown of its main stages:
 
 - Plan: Decide what the software should do and how to achieve it.
 - Requirements: Find out what features and functions the software needs.
