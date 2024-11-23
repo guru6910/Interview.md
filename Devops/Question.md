@@ -19,9 +19,8 @@ The waterfall methodology is a sequential approach to software development. In t
 3. Explain Agile methodology.
 
 The Agile methodology is a flexible approach to software development where projects are divided into small, manageable parts called sprints. Teams work in short cycles to create and improve the product based on regular feedback from customers, allowing them to adapt to changes quickly. This helps ensure that the final product better meets user needs.
--->
-Here’s how it works:
-
+--> - Agile methodology is a flexible and fast way to create software. where the project are divided into small parts is called as sprints.
+- Here’s how it works:
 - The team works on one small piece of the project at a time.
 - After each sprint, they show the progress to customers or users.
 - Customers give feedback, and the team makes improvements or changes.
