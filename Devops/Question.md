@@ -5,12 +5,12 @@
 --> The Software Development Life Cycle (SDLC) is a step-by-step process that helps teams build high-quality software efficiently. It ensures the software meets customer needs, stays within budget, and is completed on time. Here's a simplified breakdown of its main stages:
 
 Plan: Decide what the software should do and how to achieve it.
-Requirements: Find out what features and functions the software needs.
-Design: Sketch out how the software will look and work.
-Build: Write the code to create the software.
-Test: Check the software to make sure it works correctly.
-Deploy: Launch the software so people can use it.
-Maintain: Fix issues and improve the software over time
+- Requirements: Find out what features and functions the software needs.
+- Design: Sketch out how the software will look and work.
+- Build: Write the code to create the software.
+- Test: Check the software to make sure it works correctly.
+- Deploy: Launch the software so people can use it.
+- Maintain: Fix issues and improve the software over time
 
 2. explain waterfall methodology.
 
