@@ -10,7 +10,7 @@
 - Build: Write the code to create the software.
 - Test: Check the software to make sure it works correctly.
 - Deploy: Launch the software so people can use it.
-- Maintain: Fix issues and improve the software over time
+- Maintain: Fix issues and update and adding the new features.
 
 2. explain waterfall methodology.
 
