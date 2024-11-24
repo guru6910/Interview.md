@@ -54,6 +54,7 @@ In a CVCS, like Subversion (SVN), all version history and project files are stor
 10. Explain staging area.
 
 The staging area in Git is a middle step between modifying files in your working directory and committing them to the repository. You can stage changes selectively, preparing them for a commit, which allows you to break down changes into smaller, more meaningful commits. It’s essentially a “holding” area where you can review and edit what will be included in your next commit.
+- staging area means “holding area”. Before the commits, where you keep your changes ready before saving them permanently.
 
 11. Explain Branching strategy.
 12. Explain Environmentin git.
