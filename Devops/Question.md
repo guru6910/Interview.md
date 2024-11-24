@@ -67,6 +67,8 @@ The git cherry-pick command allows you to apply a specific commit from one branc
 
 15. what is rebase and merge command.
 16. what is commit in github.
+    - A commit is a sanpshoot of project state at a specific point in time.
+    - Each commit id has a unique id, so you can find the specific commit latter.
 
 A commit is a snapshot of your project’s files at a specific point in time. When you make a commit in GitHub, it records what changes were made and by whom
 
