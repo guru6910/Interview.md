@@ -1,4 +1,4 @@
-## ${\color{red} \textbf{HR}}$
+# ${\color{red} \textbf{HR}}$
 
 hello sir good morning/afternoon i am Gurudev Devkar, i am currently residing in Pune and i have 2.5+ years of experience in INAT technology as a DevOps Engineer. where i have gained extensive experience with DevOps methodology, AWS cloud and Linux system administration. 
 
